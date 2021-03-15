@@ -17,7 +17,7 @@ int lookUpVersion(){
 /*
   << 실행 결과 >>
   
-  12
   hello
-
+  12
+  
 */
