@@ -18,7 +18,7 @@ class _ImageWidgetAppState extends State<ImageWidgetApp> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Image.asset(
-                'images/tree.jpg',
+                'images/tree.jpg',  // 해당 이미지 폴더생성해서 pubspec.yaml 설정 추가
                 width: 300,
                 height: 200,
                 fit: BoxFit.fill,
@@ -26,7 +26,7 @@ class _ImageWidgetAppState extends State<ImageWidgetApp> {
               Text(
                 'Tree',
                 style: TextStyle(
-                    fontFamily: 'Pacfico', fontSize: 30, color: Colors.green),
+                    fontFamily: 'Pacfico', fontSize: 30, color: Colors.green), // 해당 폰트 폴더생성해서 pubspec.yaml 설정 추가
               )
             ],
           ),
