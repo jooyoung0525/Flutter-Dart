@@ -84,7 +84,7 @@ class _WidgetExampleState extends State<WidgetApp> {
   Widget result_button() {
     return Padding(
         padding: EdgeInsets.only(left: 100, right: 100, top: 15),
-        child: ElevatedButton(
+        child: ElevatedButton( //flutter tutorial에서 RaisedButton은 ElevatedButton으로 대체 됨
             onPressed: () {
               setState(() {
                 var value1Int = double.parse(value1.value.text);
@@ -108,7 +108,7 @@ class _WidgetExampleState extends State<WidgetApp> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[Icon(Icons.add), Text(_buttonText)],
             ),
-            style: ElevatedButton.styleFrom(primary: Colors.amber))); //flutter tutorial에서 RaisedButton은 ElevatedButton으로 대체 됨
+            style: ElevatedButton.styleFrom(primary: Colors.amber))); // ElevatedButton은 색상 변경시 styleForm 이용
   }
 
   Widget select_box() {
