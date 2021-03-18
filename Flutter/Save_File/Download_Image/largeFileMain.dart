@@ -47,16 +47,16 @@ class _LargeFileMainState extends State<LargeFileMain> {
                     : FutureBuilder(
                         builder: (context, snapshot) {
                           switch (snapshot.connectionState) {
-                            case ConnectionState.none:
+                            case ConnectionState.none: // FutureBuilder.future가 null
                               print('none');
                               return Text('데이터 없음');
-                            case ConnectionState.waiting:
+                            case ConnectionState.waiting: // FutureBuilder.future에서 데이터를 반환받지 않았을때, 연결되기 전)
                               print('waiting');
                               return CircularProgressIndicator();
-                            case ConnectionState.active:
+                            case ConnectionState.active: // 하나 이상의 데이터를 반환받을 때
                               print('active');
                               return CircularProgressIndicator();
-                            case ConnectionState.done:
+                            case ConnectionState.done: // 모든 데이터를 받아서 연결이 끝날 때
                               print('done');
                               if (snapshot.hasData) {
                                 return snapshot.data;
@@ -104,7 +104,7 @@ class _LargeFileMainState extends State<LargeFileMain> {
   Future<Widget> downloadWidget(String filePath) async {
     File file = File(filePath);
     bool exist = await file.exists();
-    new FileImage(file).evict();
+    new FileImage(file).evict(); // 캐시 초기화
 
     if (exist) {
       return Center(
