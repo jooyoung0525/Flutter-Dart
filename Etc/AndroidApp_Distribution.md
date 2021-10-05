@@ -50,5 +50,21 @@
 
 <br>
 
-### 7. aab 파일 생성하기
-* Build >> Generate Signed Bundle or Apk >> App Bundle >> Key Store 정보 입력 ( Export ~~ 체크박스 해제 ) >> release >> Finish
+### 7. aab 파일 생성하기 
+
+* Build >> Generate Signed Bundle or Apk 
+
+![app bundle](https://user-images.githubusercontent.com/29946480/135975314-38ac325d-092b-4730-a43a-20892ee7e397.png)
+
+
+
+*  App Bundle >> Key Store 정보 입력 ( Export ~~ 체크박스 해제 ) 
+
+*key store path는 처음 앱 생성시 만들어진 keystore파일 적용*
+ 
+![key store path](https://user-images.githubusercontent.com/29946480/135975316-4e17ceee-be75-4dc9-a62f-36ff5898bdbe.PNG)
+![keystore2](https://user-images.githubusercontent.com/29946480/135975318-0d8a2de6-aff2-4eab-9a2b-3a1f9d5e6b9b.PNG)
+
+
+
+*  release >> Finish
