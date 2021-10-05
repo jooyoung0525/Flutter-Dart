@@ -44,6 +44,8 @@
 * 프로젝트 폴더 >> android >> 아무 파일 클릭 >> 프로젝트 우측 상단에 Open for Editing in Android Studio 클릭
 ![open](https://user-images.githubusercontent.com/29946480/135974074-c974d06d-9951-479f-a302-f79fb1b137d4.PNG)
 
+<br>
+
 * Tools >> Flutter >> Open for Editing in Android Studio 클릭
 ![tool](https://user-images.githubusercontent.com/29946480/135974077-c3713049-5d22-40ae-a39d-2858eb36af7d.png)
 )
@@ -56,7 +58,7 @@
 
 ![app bundle](https://user-images.githubusercontent.com/29946480/135975314-38ac325d-092b-4730-a43a-20892ee7e397.png)
 
-
+<br>
 
 *  App Bundle >> Key Store 정보 입력 ( Export ~~ 체크박스 해제 ) 
 
@@ -65,6 +67,6 @@
 ![key store path](https://user-images.githubusercontent.com/29946480/135975316-4e17ceee-be75-4dc9-a62f-36ff5898bdbe.PNG)
 ![keystore2](https://user-images.githubusercontent.com/29946480/135975318-0d8a2de6-aff2-4eab-9a2b-3a1f9d5e6b9b.PNG)
 
+<br>
 
-
-*  release >> Finish
+*  release >> Finish >> D:\Develop\"프로젝트명"\android\app\release에 .aab파일 
