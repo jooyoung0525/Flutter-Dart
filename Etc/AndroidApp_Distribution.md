@@ -32,7 +32,8 @@
 
 <br>
 
-#### 5. 안드로이드 스튜디오 터미널에서 flutter clean >> flutter pub get >> fvm use "프로젝트 flutter 버전" >> fvm flutter run
+#### 5. 안드로이드 스튜디오 터미널
+* flutter clean >> flutter pub get >> fvm use "프로젝트 flutter 버전" >> fvm flutter run
 
 
 <br>
@@ -49,4 +50,5 @@
 
 <br>
 
-### 7. Build >> Generate Signed Bundle or Apk >> App Bundle >> Key Store 정보 입력 ( Export ~~ 체크박스 해제 ) >> release >> Finish
+### 7. aab 파일 생성하기
+* Build >> Generate Signed Bundle or Apk >> App Bundle >> Key Store 정보 입력 ( Export ~~ 체크박스 해제 ) >> release >> Finish
