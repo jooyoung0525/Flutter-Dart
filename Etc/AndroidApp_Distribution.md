@@ -64,7 +64,11 @@
 
 <br>
 
+
 *  App Bundle >> Key Store 정보 입력 ( Export ~~ 체크박스 해제 ) 
+
+*-> Apk 파일로 생성해도 되지만, aab 파일이 용량이 작음*
+
 
 *key store path는 처음 앱 생성시 만들어진 keystore파일 적용*
  
