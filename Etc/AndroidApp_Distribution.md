@@ -73,4 +73,4 @@
 
 <br>
 
-*  release >> Finish >> D:\Develop\"프로젝트명"\android\app\release에 .aab파일 
+*  release >> Finish >> "프로젝트위치"\android\app\release에 .aab파일 
