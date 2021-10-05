@@ -37,6 +37,7 @@
 
 <br>
 <br>
+
 #### 6. 두가지 중 하나의 방법으로 Open for Editing in Android Studio 실행
 
 * 프로젝트 폴더 >> android >> 아무 파일 클릭 >> 프로젝트 우측 상단에 Open for Editing in Android Studio 클릭
