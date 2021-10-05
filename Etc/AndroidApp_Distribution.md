@@ -3,6 +3,12 @@
 # Flutter Project를 안드로이드 스튜디오로 배포하는 법
 
 <br><br>
+<br>
+
+## <<배포용 aab파일 생성>>
+
+<br>
+
 #### 1. Git master 브랜치에서 최신으로 Pull.
 
 <br>
@@ -78,3 +84,15 @@
 <br>
 
 *  release >> Finish >> "프로젝트위치"\android\app\release에 .aab파일 
+
+<br><br>
+
+## <<Google play Console 에 비공개 테스트 올리기>>
+
+<br>
+
+#### 1. Google 로그인 및 Google play store console 접속
+
+#### 2. 테스트 >> 비공개 테스트 >> 트랙관리 >> 새 버전 만들기 >> 파일업로드 (생성한 aab파일 업로드) >> 출시 노트  >> 이전 버전에서 복사 (이전과 노트 동일할 시) >> 저장 >> 버전 검토 >> alpha 트랙으로 출시 ( 네티이브~~ 경고 무시해도됨 ) >> 
+
+
