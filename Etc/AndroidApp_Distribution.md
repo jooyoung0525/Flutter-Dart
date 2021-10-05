@@ -42,11 +42,15 @@
 #### 6. 두가지 중 하나의 방법으로 Open for Editing in Android Studio 실행
 
 * 프로젝트 폴더 >> android >> 아무 파일 클릭 >> 프로젝트 우측 상단에 Open for Editing in Android Studio 클릭
+
 ![open](https://user-images.githubusercontent.com/29946480/135974074-c974d06d-9951-479f-a302-f79fb1b137d4.PNG)
+
 
 <br>
 
+
 * Tools >> Flutter >> Open for Editing in Android Studio 클릭
+
 ![tool](https://user-images.githubusercontent.com/29946480/135974077-c3713049-5d22-40ae-a39d-2858eb36af7d.png)
 )
 
